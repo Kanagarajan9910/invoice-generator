@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+
+
+@media (max-width:576px){
+    .row1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .row2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .row3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

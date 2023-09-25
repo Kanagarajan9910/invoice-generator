@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="Form" style="background-color: #F8FAFC;">
+        <div class="col-lg-12">
+            <h4 style=" background-color: #FFFFFF; font-size: 18px;padding: 20px;">INVOICE GENERATOR</h4>
+        </div>
+        <div class="container ms-auto py-3 ">
+            <div class="row ">
+                <div class="col-lg-8 ms-auto" style="background-color: #FFFFFF; border-radius: 20px;">
+                    <div class=" heading py-5" style="background-color: #FFFFFF;">
+                        <h5>INVOICE</h5>
+                        <button type="button" class="btn btn-secondary btn-lg"
+                            style="font-size: 16px;padding: 0px 20px; background-color: #b3b0b0;">Logo-Click to
+                            <br>Upload</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h6 style="font-weight: bold;">Bill Form</h6>
+                            <div class="row">
+                                <div class="col-lg-5" style="font-size: 14px;font-weight: 400;">
+                                    <label for="exampleInputEmail" class="form-lable">Company:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                        placeholder="e.g. Apple Incorporation">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Adress:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                        placeholder="e.g. Bennington street 22">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Zip:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp" placeholder="e.g. 234523">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">City:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp" placeholder="e.g. seattle">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Country:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 12px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp" placeholder="e.g. USA">
+                                </div>
+                            </div>
+                            <div class="custom py-3" style="display: flex;">
+                                <h5>Custom fields</h5>
+                                <li style="list-style: none; padding-left: 20px;"><a href="#" style="color: black;">Add
+                                        custom field</a></li>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h6 style="font-weight: bold;">Bill To</h6>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Company:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                        placeholder="e.g. Apple Incorporation">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Adress:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp"
+                                        placeholder="e.g. Bennington street 22">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Zip:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp" placeholder="e.g. 234523">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">City:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 14px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp" placeholder="e.g. seattle">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <label for="exampleInputEmail" class="form-lable"
+                                        style="font-size: 14px;font-weight: 400;">Country:</label>
+                                </div>
+                                <div class="col-lg-7 mb-3">
+                                    <input type="text" style="font-size: 12px;" class="form-control"
+                                        id="exampleInputEmail" aria-describedby="emailHelp" placeholder="e.g. USA">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-5">
+                        <div class="row">
+                            <div class="col-lg-5" style="font-size: 14px;">
+                                <label for="exampleInputEmail" class="form-lable">Invoice Number:</label>
+                            </div>
+                            <div class="col-lg-7 mb-3">
+                                <input type="text" style="font-size: 14px;" class="form-control" id="exampleInputEmail"
+                                    aria-describedby="emailHelp" placeholder="Invoice Number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5" style="font-size: 14px;">
+                                <label for="exampleInputEmail" class="form-lable">Issued Date:</label>
+                            </div>
+                            <div class="col-lg-7 mb-3">
+                                <input type="text" style="font-size: 14px;" class="form-control" id="Date"
+                                    aria-describedby="emailHelp" placeholder="Issued Date" onfocus="(this.type='Date')">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5" style="font-size: 14px;">
+                                <label for="exampleInputEmail" class="form-lable">Due Date:</label>
+                            </div>
+                            <div class="col-lg-7 mb-3">
+                                <input type="text" style="font-size: 14px;" class="form-control" id="exampleInputEmail"
+                                    aria-describedby="emailHelp" placeholder="Due Date" onfocus="(this.type='Date')">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h6 style="color: #b3b0b0; padding-bottom: 20px;">Item name</h6>
+                            <div class="col-lg-12 mb-3">
+                                <input type="text" style="font-size: 16px; font-weight: 500;" class="form-control"
+                                    id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Sample Item">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <h6 style="color: #b3b0b0; padding-bottom: 20px;">Qty</h6>
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" id="exampleInputEmail"
+                                            aria-describedby="emailHelp" placeholder="1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h6 style="color: #b3b0b0; padding-bottom: 20px;">Rate</h6>
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" id="exampleInputEmail"
+                                            aria-describedby="emailHelp" placeholder="EUR    10">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h6 style="color: #b3b0b0; padding-bottom: 20px;">Line Total</h6>
+                                    <div class="col-lg-12 mb-3" style="display: flex;">
+                                        <input type="text" class="form-control" id="exampleInputEmail"
+                                            aria-describedby="emailHelp" placeholder="EUR    10.00">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 py-5">
+                                    <i class="fa-solid fa-circle-plus" style="color: #131a7c; font-size: 35px;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3" style="border-top: 1px solid #b3b0b0;">
+                        <div class="col-lg-7">
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Notes</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Terms</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="row1" style="display: flex;">
+                                <div class="col-lg-4" style="font-size: 25px;">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch"
+                                            id="flexSwitchCheckDefault">
+                                    </div>
+                                    <p style="font-size: 14px;padding-top: 10px;font-weight: 500;">Discount</p>
+                                </div>
+                                <div class="col-lg-4" style="font-size: 25px;">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch"
+                                            id="flexSwitchCheckDefault">
+                                    </div>
+                                    <p style="font-size: 14px;padding-top: 10px;font-weight: 500;">Tax</p>
+                                </div>
+                                <div class="col-lg-4" style="font-size: 25px;">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch"
+                                            id="flexSwitchCheckDefault">
+                                    </div>
+                                    <p style="font-size: 14px;padding-top: 10px;font-weight: 500;">Shipping</p>
+                                </div>
+
+                            </div>
+                            <div class="row1 py-3" style="display: flex;">
+                                <div class="col-lg-4">
+                                    <p>Sub total</p>
+                                </div>
+                                <div class="col-lg-4">
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <p>EUR 10.00</p>
+                                </div>
+                            </div>
+                            <div class="row2 py-3" style="border-top: 1px solid #b3b0b0;display: flex;">
+                                <div class="col-lg-6">
+                                    <p>Total Amount</p>
+                                </div>
+                                <div class="col-lg-2">
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <p>EUR 10.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <div class="col-lg-3 py-3 ms-lg-3 mt-sm-1" style=" background-color: #FFFFFF; border-radius: 20px;">
+                    <div class="row">
+                        <div class="d-grid gap-3 col-12 ">
+                            <button class="btn btn-light" type="button" style="border: 1px solid #a3a5a8;"> <i
+                                    class="fa-solid fa-plus" style="color: #050506; padding: 15px;"></i> New
+                                Invoice</button>
+                            <button class="btn btn" type="button" style="background-color: #EA580C; color: #FFFFFF;"><i
+                                    class="fa-solid fa-cloud-arrow-down" style="color: #f3f4f7;padding: 15px;"></i> Save
+                                Invoice</button>
+                        </div>
+                        <div class="d-grid gap-2 col-12 py-3 ">
+                            <button class="btn btn-light" type="button"
+                                style="background-color: #312E81;color: #FFFFFF;padding: 18px;"><i
+                                    class="fa-solid fa-file-invoice-dollar" style="color: #f7f7f7;"></i> Generate PDF
+                                Invoice</button>
+                        </div>
+                        <div class="d-grid gap-3 col-6  ">
+                            <button class="btn btn-light" type="button"
+                                style="background-color: #312E81;color: #FFFFFF;padding: 12px;">Export</button>
+                        </div>
+                        <div class="d-grid gap-3 col-6  ">
+                            <button class="btn btn-light" type="button"
+                                style="background-color: #312E81;color: #FFFFFF;padding:  12px;">Import</button>
+                        </div>
+                        <div class="d-grid gap-3 col-12 py-2  ">
+                            <button class="btn btn-light" type="button"
+                                style="background-color: #FFFFFF;border: 1px solid #a3a5a8; color: black;padding:  10px;">
+                                <i class="fa-solid fa-circle-dot" style="color: #1d4d9f;"></i> Missing a
+                                feature?</button>
+                        </div>
+                        <div class="d-grid gap-2 col-lg-12 py-2" style="border-bottom: 1px solid #a3a5a8">
+                            <p>Currency</p>
+                            <button type="button" style="background-color: #E5E7EB;color: black; " class="btn btn-sm btn-bright dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="">ALL</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">INR</a></li>
+                                <li><a class="dropdown-item" href="#">EUR</a></li>
+                                <li><a class="dropdown-item" href="#">$</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-grid gap-2 col-12 py-2  ">
+                            <p>Saved Invoices</p>
+                            <button class="btn btn-light" type="button"
+                                style="background-color: #f3f7ff;border: 1px solid #a3a5a8; color: black;padding:  10px;">
+                                No Saved invoices found</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <section class="para" style="background-color: #F8FAFC; padding-bottom: 30px;">
+        <div class="container" style="background-color: #FFFFFF; border-radius: 20px;">
+            <div class="row py-5">
+                <div class="col-lg-2">
+
+                </div>
+                <div class="col-lg-8">
+                    <p style="font-size: 16px;">You want to run your business running smoothly, right? Then you must
+                        keep your bills updated. A
+                        free invoice generator can be helpful in this situation.</p>
+                    <p>This invoice generator is free and privacy-based. Here are the features offered to you:</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Define Sender and
+                            Recipient:</a></li>
+                    <p>The invoice generator allows users to input their information as the sender and recipient
+                        effortlessly. All crucial fields are included: Name, Address, City, and Country. If you need
+                        additional information like VAT number, email, etc., you can use custom fields for this.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Invoice Date and Due
+                            Date:</a></li>
+                    <p>Users can set the invoice and due dates, ensuring clarity and timeliness in payment expectations.
+                        This function helps with better money management and makes it less likely that payments will be
+                        late (hopefully :).</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Local Storage and
+                            Privacy:</a></li>
+                    <p>Data privacy is paramount, and this invoice generator addresses this concern by saving the data
+                        in local storage. Users can confidently create and manage invoices, knowing their information is
+                        kept secure.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">PDF Invoice
+                            Generation:</a></li>
+                    <p>The tool offers the ability to generate professional-looking PDF invoices. I'm currently working
+                        on additional templates for PDFs with different layouts.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Import and Export
+                            Support:</a></li>
+                    <p>The tool supports importing and exporting invoices in a simple text file format, making it
+                        convenient to transfer invoice data across platforms or keep backups of essential records.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Custom Fields and
+                            Notes:</a></li>
+                    <p>Users can include custom fields like VAT, bank information, and other relevant details.
+                        Additionally, fields for notes and terms allow for clear communication and additional
+                        information in the invoice.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Discounts, Taxes, and
+                            Shipping Prices:</a></li>
+                    <p>This invoice generator offers a complete invoicing solution by supporting shipping costs, taxes,
+                        and discounts. Both percentage and amount are supported.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Local Save and Load
+                            Functionality:</a></li>
+                    <p>By enabling users to save and load their invoices locally, the solution improves accessibility
+                        and gradually makes effective invoice administration easier.</p>
+                    <li><a href="#" style="text-decoration: none;color: black;font-weight: 600;">Multi-Currency
+                            Support:</a></li>
+                    <p>I included all world currencies to ensure that users from all over the world can utilize the
+                        tool. Now it's a flexible and universally applicable billing solution.</p>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p style="font-size: 20px;font-weight: 600;">Invoice Generator</p>
+                </div>
+                <div class="col-lg-4">
+                    <p style="color: #c5c7ca;"> | © 2023 by Csaba Kissi</p>
+                </div>
+                <div class="col-lg-2">
+                    <div class="icons">
+                        <i class="fa-brands fa-twitter" style="color: #a3a5a8;"></i>
+                        <i class="fa-brands fa-github" style="color: #a3a5a8;"></i>
+                        <i class="fa-brands fa-dribbble" style="color: #a3a5a8"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
